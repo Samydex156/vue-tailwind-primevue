@@ -1,10 +1,9 @@
 <script setup>
-import Portfolio01 from './components/done/Portfolio01.vue'
-import Portfolio02A from './components/done/Portfolio02A.vue';
+import PrimeContact from './components/PrimeContact.vue';
 </script>
 
 <template>
-  <div>
-    <Portfolio02A />
+  <div class="bg-[#fffee9] flex items-center justify-center h-screen">
+    <PrimeContact />
   </div>
 </template>
