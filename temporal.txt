@@ -1,0 +1,50 @@
+<template>
+  <main class="min-h-screen bg-white flex items-center justify-center p-4">
+    
+    <div class="max-w-6xl w-full flex flex-col md:flex-row items-stretch">
+      
+      <section class="relative w-full md:w-1/2 bg-[#F3EAE3] p-10 flex justify-end">
+        
+        <div class="bg-white shadow-xl p-8 flex flex-col items-center text-center w-full max-w-sm z-10">
+          <img 
+            src="https://via.placeholder.com/200" 
+            alt="Maya Nares" 
+            class="rounded-full w-48 h-48 object-cover mb-6"
+          />
+          <h2 class="text-3xl font-bold mb-2">Maya Nares</h2>
+          <div class="w-12 h-0.5 bg-blue-600 mb-6"></div>
+          <p class="tracking-[0.2em] text-sm uppercase mb-8">Gestor de Proyecto</p>
+          
+          <div class="flex gap-4 border-t pt-4 w-full justify-center">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-full md:w-1/2 p-10 md:pl-20 flex flex-col justify-center">
+        <h1 class="text-8xl font-black mb-6">Hola</h1>
+        <h3 class="text-2xl font-bold mb-8">Esto es lo que soy y lo que hago</h3>
+        
+        <div class="flex gap-4 mb-10">
+          <button class="bg-blue-600 text-white px-8 py-2 rounded-full font-bold hover:bg-blue-700 transition">
+            CURRICULUM
+          </button>
+          <button class="border-2 border-black px-8 py-2 rounded-full font-bold hover:bg-black hover:text-white transition">
+            PROYECTOS
+          </button>
+        </div>
+
+        <p class="text-gray-700 leading-relaxed mb-6">
+          Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en "Editar texto" o doble clic aquí para agregar tu contenido y cambiar la fuente.
+        </p>
+        <p class="text-gray-700 leading-relaxed">
+          Aquí puedes contar tu historia y permitir que tus usuarios sepan más sobre ti.
+        </p>
+      </section>
+
+    </div>
+  </main>
+</template>
