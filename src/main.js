@@ -4,6 +4,7 @@ import App from './App.vue'
 
 // 1. Importar PrimeVue y el Tema
 import PrimeVue from 'primevue/config';
+import ToastService from 'primevue/toastservice';
 import Aura from '@primevue/themes/aura';
 
 const app = createApp(App);
@@ -21,5 +22,6 @@ app.use(PrimeVue, {
         }
     }
 });
+app.use(ToastService);
 
 app.mount('#app');
